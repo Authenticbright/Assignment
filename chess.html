@@ -30,3 +30,43 @@
             </li>
         </ul>
     </nav>
+    <body>
+        <!DOCTYPE html>
+<html>
+<head>
+  <title>5x5 Chessboard</title>
+  <style>
+    .chessboard {
+      width: 250px;
+      height: 250px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+    
+    .chessboard div {
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      border: 1px solid #000;
+    }
+    
+    .chessboard div:nth-child(odd) {
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+
+<div class="chessboard">
+  <div></div><div></div><div></div><div></div><div></div>
+  <div></div><div></div><div></div><div></div><div></div>
+  <div></div><div></div><div></div><div></div><div></div>
+  <div></div><div></div><div></div><div></div><div></div>
+  <div></div><div></div><div></div><div></div><div></div>
+</div>
+
+</body>
+</html>
+
+    </body>
